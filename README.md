@@ -59,6 +59,160 @@ Theh linter is used to enforce format and errors. Run `npm test` and check if th
 
 Visit `\test` to see the test results
 
+# Unit Tests Result
+
+Testing the ListClass:
+
+    ListClass is a class: true
+    ListClass constructor takes 1 argument: true
+    ListClass will crash if not given peer dependancy slideShow: true
+    ListClass will crash if not given container reference when it tries to render the laoding animation: true
+    ListClass will return an instance of itself: true
+    ListClass will rerender when setState is called with a new state: true
+
+# of tests: 7
+
+# passed: 7
+
+# failed: 0
+
+---
+
+Testing the Products ListModule:
+
+    ListModule is the default export: true
+    ListModule is a function: true
+    ListModule accepts two arguments: true
+    ListModule will throw when no arguments are passed: true
+    ListModule will throw if the first argument passed is not an array: true
+    listModule will throw if the second argument does not expose a setState function: true
+    ListModule will return a Node: true
+
+# of tests: 7
+
+# passed: 7
+
+# failed: 0
+
+---
+
+Testing the Products ListStyle:
+
+    ListStyle is the default export: true
+    ListStyle is a Node: true
+    ListStyle is a style tag: true
+
+# of tests: 3
+
+# passed: 3
+
+# failed: 0
+
+---
+
+Testing the Product SlideModule:
+
+    SlideModule is the default export: true
+    SlideModule is a function: true
+    SlideModule requires 1 argument: true
+    SlideModule requires a name property on the argument: true
+    SlideModule requires a hero property with an href property: true
+    SlideModule returns a Node: true
+
+# of tests: 6
+
+# passed: 6
+
+# failed: 0
+
+---
+
+Testing the Products SlideStyle:
+
+    SlideStyle is the default export: true
+    SlideStyle is a Node: true
+    SlideStyle is a style tag: true
+
+# of tests: 3
+
+# passed: 3
+
+# failed: 0
+
+---
+
+Testing the HeaderModule:
+
+    HeaderModule is the default export: true
+    HeaderModule is a function: true
+    HeaderModule requires 1 argument: true
+    HeaderModule requires a name property on the argument: true
+    HeaderModule requires a hero property with an href property: true
+    HeaderModule returns a Node: true
+
+# of tests: 6
+
+# passed: 6
+
+# failed: 0
+
+---
+
+Testing the LoaderModule:
+
+    LoaderModule is the default export: true
+    LoaderModule is a Node: true
+
+# of tests: 2
+
+# passed: 2
+
+# failed: 0
+
+---
+
+Testing the SlideShow:
+
+    The SlideShow is the default export: true
+    The SlideShow is a Class: true
+    The SlideShow will crash if not passed a mounting point: true
+    The slideShow returns and instance of itself: true
+    The SlideShow will render when state is updated: true
+    The SlideShow will render when SlideShow.render is called: true
+    The SlideShow will hide when SlideShow.hide is called: true
+
+# of tests: 7
+
+# passed: 7
+
+# failed: 0
+
+---
+
+Testing the Static JSON file obtained from the provided link for challenge:
+
+    The Static file is the default export: true
+    The Static file is an Object Literal: true
+    The Static file has .groups and it is an Array: true
+    Each product listing in the .groups reference has a name, a hero with href: true
+    Each product listing has an array of images and each image has an href: true
+
+# of tests: 5
+
+# passed: 5
+
+# failed: 0
+
+---
+
+Total for all Tests:
+
+    Total number of tests performed: 46
+    Total number of tests passed: 46
+    Total number of tests failed: 0
+
+    Percentage of tests passed: 100%
+
 # The Product List Page
 
 In accessing the products list page, Cross-Origin-Resource-Sharing accessibility is taken into account

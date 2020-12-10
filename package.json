@@ -1,5 +1,5 @@
 {
-  "name": "willimasonoma",
+  "name": "williamsonoma",
   "scripts": {
     "test": "echo Installing dependancies and checking for vulnerabilities && npm install && echo Testing each individual file && node ./node_modules/eslint/bin/eslint.js **/*.js --ignore-pattern node_modules/ . && echo Finshed tests against all files. No tests failed.",
     "start": "npm test && node server",
